@@ -1,0 +1,180 @@
+NUTS318CD,NUTS318NM,FID
+UKJ46,West Kent,1
+UKC11,Hartlepool and Stockton-on-Tees,2
+UKK11,"Bristol, City of",3
+UKK12,"Bath and North East Somerset, North Somerset and South Gloucestershire",4
+UKC12,South Teesside,5
+UKC13,Darlington,6
+UKK13,Gloucestershire,7
+UKK14,Swindon,8
+UKC14,Durham CC,9
+UKC21,Northumberland,10
+UKK15,Wiltshire,11
+UKK21,Bournemouth and Poole,12
+UKC22,Tyneside,13
+UKC23,Sunderland,14
+UKK22,Dorset CC,15
+UKK23,Somerset,16
+UKD11,West Cumbria,17
+UKD12,East Cumbria,18
+UKK30,Cornwall and Isles of Scilly,19
+UKK41,Plymouth,20
+UKD33,Manchester,21
+UKD34,Greater Manchester South West,22
+UKK42,Torbay,23
+UKK43,Devon CC,24
+UKD35,Greater Manchester South East,25
+UKD36,Greater Manchester North West,26
+UKL11,Isle of Anglesey,27
+UKL12,Gwynedd,28
+UKD37,Greater Manchester North East,29
+UKD41,Blackburn with Darwen,30
+UKL13,Conwy and Denbighshire,31
+UKD42,Blackpool,32
+UKL14,South West Wales,33
+UKL15,Central Valleys,34
+UKD44,Lancaster and Wyre,35
+UKD45,Mid Lancashire,36
+UKL16,Gwent Valleys,37
+UKL17,Bridgend and Neath Port Talbot,38
+UKD46,East Lancashire,39
+UKD47,Chorley and West Lancashire,40
+UKL18,Swansea,41
+UKL21,Monmouthshire and Newport,42
+UKD61,Warrington,43
+UKD62,Cheshire East,44
+UKL22,Cardiff and Vale of Glamorgan,45
+UKL23,Flintshire and Wrexham,46
+UKD63,Cheshire West and Chester,47
+UKD71,East Merseyside,48
+UKL24,Powys,49
+UKM50,Aberdeen City and Aberdeenshire,50
+UKD72,Liverpool,51
+UKD73,Sefton,52
+UKM61,Caithness and Sutherland and Ross and Cromarty,53
+UKM62,"Inverness and Nairn and Moray, Badenoch and Strathspey",54
+UKD74,Wirral,55
+UKE11,"Kingston upon Hull, City of",56
+UKM63,"Lochaber, Skye and Lochalsh, Arran and Cumbrae and Argyll and Bute",57
+UKM64,Eilean Siar (Western Isles),58
+UKE12,East Riding of Yorkshire,59
+UKE13,North and North East Lincolnshire,60
+UKM65,Orkney Islands,61
+UKM66,Shetland Islands,62
+UKE21,York,63
+UKE22,North Yorkshire CC,64
+UKM71,Angus and Dundee City,65
+UKM72,Clackmannanshire and Fife,66
+UKE31,"Barnsley, Doncaster and Rotherham",67
+UKE32,Sheffield,68
+UKM73,East Lothian and Midlothian,69
+UKM75,City of Edinburgh,70
+UKE41,Bradford,71
+UKE42,Leeds,72
+UKM76,Falkirk,73
+UKM77,Perth and Kinross and Stirling,74
+UKE44,Calderdale and Kirklees,75
+UKE45,Wakefield,76
+UKM78,West Lothian,77
+UKM81,"East Dunbartonshire, West Dunbartonshire and Helensburgh and Lomond",78
+UKF11,Derby,79
+UKF12,East Derbyshire,80
+UKM82,Glasgow City,81
+UKM83,"Inverclyde, East Renfrewshire and Renfrewshire",82
+UKF13,South and West Derbyshire,83
+UKF14,Nottingham,84
+UKM84,North Lanarkshire,85
+UKM91,Scottish Borders,86
+UKF15,North Nottinghamshire,87
+UKF16,South Nottinghamshire,88
+UKM92,Dumfries and Galloway,89
+UKM93,East Ayrshire and North Ayrshire mainland,90
+UKF21,Leicester,91
+UKF22,Leicestershire CC and Rutland,92
+UKM94,South Ayrshire,93
+UKM95,South Lanarkshire,94
+UKF24,West Northamptonshire,95
+UKF25,North Northamptonshire,96
+UKN06,Belfast,97
+UKN07,"Armagh City, Banbridge and Craigavon",98
+UKF30,Lincolnshire,99
+UKG11,"Herefordshire, County of",100
+UKG12,Worcestershire,101
+UKN08,"Newry, Mourne and Down",102
+UKG13,Warwickshire,103
+UKN09,Ards and North Down,104
+UKG21,Telford and Wrekin,105
+UKN10,Derry City and Strabane,106
+UKG22,Shropshire CC,107
+UKN11,Mid Ulster,108
+UKG23,Stoke-on-Trent,109
+UKN12,Causeway Coast and Glens,110
+UKG24,Staffordshire CC,111
+UKN13,Antrim and Newtownabbey,112
+UKN14,Lisburn and Castlereagh,113
+UKG31,Birmingham,114
+UKN15,Mid and East Antrim,115
+UKG32,Solihull,116
+UKN16,Fermanagh and Omagh,117
+UKG33,Coventry,118
+UKG36,Dudley,119
+UKG37,Sandwell,120
+UKG38,Walsall,121
+UKG39,Wolverhampton,122
+UKH11,Peterborough,123
+UKH12,Cambridgeshire CC,124
+UKH14,Suffolk,125
+UKH15,Norwich and East Norfolk,126
+UKH16,North and West Norfolk,127
+UKH17,Breckland and South Norfolk,128
+UKH21,Luton,129
+UKH23,Hertfordshire,130
+UKH24,Bedford,131
+UKH25,Central Bedfordshire,132
+UKH31,Southend-on-Sea,133
+UKH32,Thurrock,134
+UKH34,Essex Haven Gateway,135
+UKH35,West Essex,136
+UKH36,Heart of Essex,137
+UKH37,Essex Thames Gateway,138
+UKI31,Camden and City of London,139
+UKI32,Westminster,140
+UKI33,Kensington & Chelsea and Hammersmith & Fulham,141
+UKI34,Wandsworth,142
+UKI41,Hackney and Newham,143
+UKI42,Tower Hamlets,144
+UKI43,Haringey and Islington,145
+UKI44,Lewisham and Southwark,146
+UKI45,Lambeth,147
+UKI51,Bexley and Greenwich,148
+UKI52,Barking & Dagenham and Havering,149
+UKI53,Redbridge and Waltham Forest,150
+UKI54,Enfield,151
+UKI61,Bromley,152
+UKI62,Croydon,153
+UKI63,"Merton, Kingston upon Thames and Sutton",154
+UKI71,Barnet,155
+UKI72,Brent,156
+UKI73,Ealing,157
+UKI74,Harrow and Hillingdon,158
+UKI75,Hounslow and Richmond upon Thames,159
+UKJ11,Berkshire,160
+UKJ12,Milton Keynes,161
+UKJ13,Buckinghamshire CC,162
+UKJ14,Oxfordshire,163
+UKJ21,Brighton and Hove,164
+UKJ22,East Sussex CC,165
+UKJ25,West Surrey,166
+UKJ26,East Surrey,167
+UKJ27,West Sussex (South West),168
+UKJ28,West Sussex (North East),169
+UKJ31,Portsmouth,170
+UKJ32,Southampton,171
+UKJ34,Isle of Wight,172
+UKJ35,South Hampshire,173
+UKJ36,Central Hampshire,174
+UKJ37,North Hampshire,175
+UKJ41,Medway,176
+UKJ43,Kent Thames Gateway,177
+UKJ44,East Kent,178
+UKJ45,Mid Kent,179
