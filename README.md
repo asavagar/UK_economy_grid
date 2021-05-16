@@ -1,8 +1,10 @@
 # UK_economy_grid
 
-##### Anthony Savagar, asavagar@gmail.com
+#### Anthony Savagar, asavagar@gmail.com
 
-##### 16/05/2021
+#### 16/05/2021
+
+---
 
 `create_rsy_grids.R` constructs region, sector, year (rsy) grids, *i.e.* panels, for the UK economy.
 
