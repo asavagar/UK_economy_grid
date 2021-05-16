@@ -24,6 +24,8 @@ https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=name&tags=all
 
 `create_rsy_grids.R` saves `.csv` of various grid combinations to directory `./output/`.
 
+Only one example output (`sy_grid_1d.csv` the smallest output) is pushed to the remote repo. 
+
 `rsy_grid.csv` is the so-called *master grid*. It contains roughly 10 millon rows (`100mb`) for all SIC, NUTS and year combinations at all levels of diaggregation. There are 5 columns. It contains three variables, or columns,  corresponding to region code, sector code and year. It has two more or columns which record the level of aggregation of the corresponding SIC code and NUTS code.
 
 `rsy_grid_named.csv` expands `rsy_grid.csv` by two columns to include the sector name and region name in text. These correspond to the SIC code and NUTS code. The file is much larger (approx. `800mb`) because the added columns include text data.
