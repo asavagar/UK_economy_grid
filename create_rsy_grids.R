@@ -2,7 +2,7 @@
 #
 # Anthony Savagar, asavagar@gmail.com
 #
-# Date 16/05/2021
+# Date 30/05/2021
 #
 # Code creates region, sector, year (rsy) grids (panels) for the UK economy.
 # The most granular grid, or master grid, is approx 10m rows.
@@ -70,30 +70,47 @@ sic_all <- bind_rows(sic_1d, sic_2d, sic_3d, sic_4d, sic_5d)
 # Create Sector Year Grids ------------------------------------------------
 
 sy_grid_5d <- sic_5d %>% expand(sic_code, year)
-write_csv(sy_grid_5d, "./output/sy_grid_5d.csv")
-
 sy_grid_4d <- sic_4d %>% expand(sic_code, year)
-write_csv(sy_grid_4d, "./output/sy_grid_4d.csv")
-
 sy_grid_3d <- sic_3d %>% expand(sic_code, year)
-write_csv(sy_grid_3d, "./output/sy_grid_3d.csv")
-
 sy_grid_2d <- sic_2d %>% expand(sic_code, year)
-write_csv(sy_grid_2d, "./output/sy_grid_2d.csv")
-
 sy_grid_1d <- sic_1d %>% expand(sic_code, year)
-write_csv(sy_grid_1d, "./output/sy_grid_1d.csv")
 
 # Create Full Region Sector Year Grid (Master Grid) ----------------------
 
-sic_all_y <- sic_all %>% expand(sic_code, year) %>% inner_join(sic_all)
-sic_all_r <- sic_all %>% expand(sic_code, nuts_all) %>% inner_join(sic_all)
+sic_all_y <- sic_all %>%
+  expand(sic_code, year) %>%
+  inner_join(sic_all)
+sic_all_r <- sic_all %>%
+  expand(sic_code, nuts_all) %>%
+  inner_join(sic_all)
 rsy_grid_named <- sic_all_y %>% right_join(sic_all_r)
 rsy_grid_named <- rsy_grid_named[, c(5, 6, 7, 1, 3, 4, 2)]
-
-write_csv(rsy_grid_named, "./output/rsy_grid_named.csv")
-
 rsy_grid <- rsy_grid_named %>%
   select("nuts_code", "sic_code", "year", "nuts_level", "sic_level")
 
+# Save Dataframes ---------------------------------------------------------
+
+write_csv(sy_grid_5d, "./output/sy_grid_5d.csv")
+write_csv(sy_grid_4d, "./output/sy_grid_4d.csv")
+write_csv(sy_grid_3d, "./output/sy_grid_3d.csv")
+write_csv(sy_grid_2d, "./output/sy_grid_2d.csv")
+write_csv(sy_grid_1d, "./output/sy_grid_1d.csv")
+write_csv(rsy_grid_named, "./output/rsy_grid_named.csv")
 write_csv(rsy_grid, "./output/rsy_grid.csv")
+
+# Save each grid as .RDS because smaller than .csv
+
+saveRDS(sy_grid_5d, "./output/sy_grid_5d.RDS")
+saveRDS(sy_grid_4d, "./output/sy_grid_4d.RDS")
+saveRDS(sy_grid_3d, "./output/sy_grid_3d.RDS")
+saveRDS(sy_grid_2d, "./output/sy_grid_2d.RDS")
+saveRDS(sy_grid_1d, "./output/sy_grid_1d.RDS")
+saveRDS(rsy_grid_named, "./output/rsy_grid_named.RDS")
+saveRDS(rsy_grid, "./output/rsy_grid.RDS")
+
+# Save all grids together as .Rdata
+
+save(sy_grid_5d, sy_grid_4d, sy_grid_3d, sy_grid_2d, sy_grid_1d, rsy_grid_named,
+  rsy_grid,
+  file = "./output/all_grids.RData"
+)
